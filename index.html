@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Grid Maker</title>
+</head>
+<body>
+    <button onclick="addR()">Add Row</button>
+    <button onclick="addC()">Add Column</button>
+    <button onclick="removeR()">Remove Row</button>
+    <button onclick="removeC()">Remove Column</button>
+    <button onclick="fillU()">Fill all uncolored</button>
+    <button onclick="fillall()">Fill all</button>
+    <button onclick="clearAll()">Clear</button>
+    <select onchange="selectColor()" id="selectedColorId">
+        <option value="Select">Select</option>
+        <option value="Red">Red</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+        <option value="Yellow">Yellow</option>
+    </select>
+
+    <table id="grid"></table>
+
+    <script src="script.js"></script>
+</body>
+</html>
