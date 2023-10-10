@@ -2,6 +2,7 @@ let numRows = 1;
 let numCols = 1;
 let colorSelected;
 const table = document.getElementById("grid");
+const cells = document.querySelectorAll("td");
 
 function addR() {
     let row = table.insertRow(-1);
