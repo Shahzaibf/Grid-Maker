@@ -10,4 +10,4 @@ Shahzaib Fareed - Shahzaibf
 
 ### Live Site
 
-To be made
+[Link](https://shahzaibf.github.io/Grid-Maker/)
